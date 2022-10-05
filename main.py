@@ -9,7 +9,6 @@ i = 0
 while i < 15:
     i = i + 1
     z = random.randint(-100, 100)
-    spisok.append(z)
     if z == 0:
         while z == 0:
             z = random.randint(-100, 100)
@@ -17,7 +16,7 @@ while i < 15:
         plus = plus + z
     else:
         minus = minus + z
-
+spisok.append(z)
 print("15 случайных чисел:", spisok)
 print("Сумма положительных:", plus)
 print("Сумма отрицательных:", minus)
