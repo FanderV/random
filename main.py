@@ -16,7 +16,7 @@ while i < 15:
         plus = plus + z
     else:
         minus = minus + z
-spisok.append(z)
+    spisok.append(z)
 print("15 случайных чисел:", spisok)
 print("Сумма положительных:", plus)
 print("Сумма отрицательных:", minus)
